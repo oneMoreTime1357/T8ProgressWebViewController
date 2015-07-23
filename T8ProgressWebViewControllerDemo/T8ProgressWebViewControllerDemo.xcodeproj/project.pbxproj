@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D7507E395C85626CFC146D7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A55A459491FA33C1C2ADC3 /* libPods.a */; };
+		6DAA56161B6119DF00920B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA56151B6119DF00920B5D /* main.m */; };
+		6DAA56191B6119DF00920B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA56181B6119DF00920B5D /* AppDelegate.m */; };
+		6DAA561C1B6119DF00920B5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA561B1B6119DF00920B5D /* ViewController.m */; };
+		6DAA561F1B6119DF00920B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DAA561D1B6119DF00920B5D /* Main.storyboard */; };
+		6DAA56211B6119DF00920B5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAA56201B6119DF00920B5D /* Images.xcassets */; };
+		6DAA56241B6119DF00920B5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DAA56221B6119DF00920B5D /* LaunchScreen.xib */; };
+		6DAA56301B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA562F1B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.m */; };
+		6DAA56541B611AAD00920B5D /* T8ProgressWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA56531B611AAD00920B5D /* T8ProgressWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DAA562A1B6119DF00920B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DAA56081B6119DF00920B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DAA560F1B6119DF00920B5D;
+			remoteInfo = T8ProgressWebViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A55A459491FA33C1C2ADC3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAA56101B6119DF00920B5D /* T8ProgressWebViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T8ProgressWebViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAA56141B6119DF00920B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAA56151B6119DF00920B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DAA56171B6119DF00920B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DAA56181B6119DF00920B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DAA561A1B6119DF00920B5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DAA561B1B6119DF00920B5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DAA561E1B6119DF00920B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DAA56201B6119DF00920B5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DAA56231B6119DF00920B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DAA56291B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T8ProgressWebViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAA562E1B6119DF00920B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAA562F1B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T8ProgressWebViewControllerDemoTests.m; sourceTree = "<group>"; };
+		6DAA56521B611AAD00920B5D /* T8ProgressWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T8ProgressWebViewController.h; sourceTree = "<group>"; };
+		6DAA56531B611AAD00920B5D /* T8ProgressWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T8ProgressWebViewController.m; sourceTree = "<group>"; };
+		B698F640DFBE947F4534F88C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F8AE6AA8EF4D7D72261F2180 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DAA560D1B6119DF00920B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7507E395C85626CFC146D7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAA56261B6119DF00920B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0F2990BF39200923F12C24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE6AA8EF4D7D72261F2180 /* Pods.debug.xcconfig */,
+				B698F640DFBE947F4534F88C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DAA56071B6119DF00920B5D = {
+			isa = PBXGroup;
+			children = (
+				6DAA56121B6119DF00920B5D /* T8ProgressWebViewControllerDemo */,
+				6DAA562C1B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests */,
+				6DAA56111B6119DF00920B5D /* Products */,
+				4D0F2990BF39200923F12C24 /* Pods */,
+				FFCBAD3CEDF15A9B68B575C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DAA56111B6119DF00920B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA56101B6119DF00920B5D /* T8ProgressWebViewControllerDemo.app */,
+				6DAA56291B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DAA56121B6119DF00920B5D /* T8ProgressWebViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA56171B6119DF00920B5D /* AppDelegate.h */,
+				6DAA56181B6119DF00920B5D /* AppDelegate.m */,
+				6DAA561A1B6119DF00920B5D /* ViewController.h */,
+				6DAA561B1B6119DF00920B5D /* ViewController.m */,
+				6DAA56511B611AAD00920B5D /* T8ProgressWebViewController */,
+				6DAA561D1B6119DF00920B5D /* Main.storyboard */,
+				6DAA56201B6119DF00920B5D /* Images.xcassets */,
+				6DAA56221B6119DF00920B5D /* LaunchScreen.xib */,
+				6DAA56131B6119DF00920B5D /* Supporting Files */,
+			);
+			path = T8ProgressWebViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		6DAA56131B6119DF00920B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA56141B6119DF00920B5D /* Info.plist */,
+				6DAA56151B6119DF00920B5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DAA562C1B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA562F1B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.m */,
+				6DAA562D1B6119DF00920B5D /* Supporting Files */,
+			);
+			path = T8ProgressWebViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		6DAA562D1B6119DF00920B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA562E1B6119DF00920B5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DAA56511B611AAD00920B5D /* T8ProgressWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA56521B611AAD00920B5D /* T8ProgressWebViewController.h */,
+				6DAA56531B611AAD00920B5D /* T8ProgressWebViewController.m */,
+			);
+			name = T8ProgressWebViewController;
+			path = ../../T8ProgressWebViewController;
+			sourceTree = "<group>";
+		};
+		FFCBAD3CEDF15A9B68B575C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A55A459491FA33C1C2ADC3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DAA560F1B6119DF00920B5D /* T8ProgressWebViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAA56331B6119DF00920B5D /* Build configuration list for PBXNativeTarget "T8ProgressWebViewControllerDemo" */;
+			buildPhases = (
+				285EB37826D479DB09AA1CD2 /* Check Pods Manifest.lock */,
+				6DAA560C1B6119DF00920B5D /* Sources */,
+				6DAA560D1B6119DF00920B5D /* Frameworks */,
+				6DAA560E1B6119DF00920B5D /* Resources */,
+				795C19267048E90CB893ADEA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T8ProgressWebViewControllerDemo;
+			productName = T8ProgressWebViewControllerDemo;
+			productReference = 6DAA56101B6119DF00920B5D /* T8ProgressWebViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DAA56281B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAA56361B6119DF00920B5D /* Build configuration list for PBXNativeTarget "T8ProgressWebViewControllerDemoTests" */;
+			buildPhases = (
+				6DAA56251B6119DF00920B5D /* Sources */,
+				6DAA56261B6119DF00920B5D /* Frameworks */,
+				6DAA56271B6119DF00920B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAA562B1B6119DF00920B5D /* PBXTargetDependency */,
+			);
+			name = T8ProgressWebViewControllerDemoTests;
+			productName = T8ProgressWebViewControllerDemoTests;
+			productReference = 6DAA56291B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DAA56081B6119DF00920B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = t8;
+				TargetAttributes = {
+					6DAA560F1B6119DF00920B5D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6DAA56281B6119DF00920B5D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6DAA560F1B6119DF00920B5D;
+					};
+				};
+			};
+			buildConfigurationList = 6DAA560B1B6119DF00920B5D /* Build configuration list for PBXProject "T8ProgressWebViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DAA56071B6119DF00920B5D;
+			productRefGroup = 6DAA56111B6119DF00920B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DAA560F1B6119DF00920B5D /* T8ProgressWebViewControllerDemo */,
+				6DAA56281B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DAA560E1B6119DF00920B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAA561F1B6119DF00920B5D /* Main.storyboard in Resources */,
+				6DAA56241B6119DF00920B5D /* LaunchScreen.xib in Resources */,
+				6DAA56211B6119DF00920B5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAA56271B6119DF00920B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285EB37826D479DB09AA1CD2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		795C19267048E90CB893ADEA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DAA560C1B6119DF00920B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAA561C1B6119DF00920B5D /* ViewController.m in Sources */,
+				6DAA56191B6119DF00920B5D /* AppDelegate.m in Sources */,
+				6DAA56541B611AAD00920B5D /* T8ProgressWebViewController.m in Sources */,
+				6DAA56161B6119DF00920B5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAA56251B6119DF00920B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAA56301B6119DF00920B5D /* T8ProgressWebViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DAA562B1B6119DF00920B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DAA560F1B6119DF00920B5D /* T8ProgressWebViewControllerDemo */;
+			targetProxy = 6DAA562A1B6119DF00920B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DAA561D1B6119DF00920B5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DAA561E1B6119DF00920B5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DAA56221B6119DF00920B5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DAA56231B6119DF00920B5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DAA56311B6119DF00920B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DAA56321B6119DF00920B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DAA56341B6119DF00920B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8AE6AA8EF4D7D72261F2180 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = T8ProgressWebViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DAA56351B6119DF00920B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B698F640DFBE947F4534F88C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = T8ProgressWebViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DAA56371B6119DF00920B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = T8ProgressWebViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T8ProgressWebViewControllerDemo.app/T8ProgressWebViewControllerDemo";
+			};
+			name = Debug;
+		};
+		6DAA56381B6119DF00920B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = T8ProgressWebViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T8ProgressWebViewControllerDemo.app/T8ProgressWebViewControllerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DAA560B1B6119DF00920B5D /* Build configuration list for PBXProject "T8ProgressWebViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAA56311B6119DF00920B5D /* Debug */,
+				6DAA56321B6119DF00920B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAA56331B6119DF00920B5D /* Build configuration list for PBXNativeTarget "T8ProgressWebViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAA56341B6119DF00920B5D /* Debug */,
+				6DAA56351B6119DF00920B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAA56361B6119DF00920B5D /* Build configuration list for PBXNativeTarget "T8ProgressWebViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAA56371B6119DF00920B5D /* Debug */,
+				6DAA56381B6119DF00920B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DAA56081B6119DF00920B5D /* Project object */;
+}
