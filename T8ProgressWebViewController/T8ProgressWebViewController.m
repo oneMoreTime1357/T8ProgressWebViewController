@@ -30,6 +30,8 @@
     self.webView.frame = self.view.bounds;
     [self.view addSubview:self.progressView];
     
+    self.webView.allowsInlineMediaPlayback = YES;
+    
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:self.url]];
     [self.webView loadRequest:request];
     
