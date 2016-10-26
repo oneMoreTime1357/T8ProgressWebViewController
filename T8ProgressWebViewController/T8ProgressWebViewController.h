@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <NJKWebViewProgress.h>
-#import <NJKWebViewProgressView.h>
+#import "NJKWebViewProgress.h"
+#import "NJKWebViewProgressView.h"
 
 @interface T8ProgressWebViewController : UIViewController<NJKWebViewProgressDelegate>
 
